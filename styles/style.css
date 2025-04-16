@@ -347,12 +347,13 @@ button:hover {
     background-color: #1dd0f0;
 }
 
-agradecimento {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 70vh;
-    text-align: center;
-}
+.projeto__card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    object-fit: cover;
+    max-height: 200px; /* 👈 Adicione esta linha */
+  }
 
 

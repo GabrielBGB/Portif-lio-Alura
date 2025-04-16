@@ -17,27 +17,33 @@
         </nav>
     </header>
 
-    <main class="projetos">
-        <h1>Meus Projetos</h1>
-        <p>Confira alguns dos projetos que desenvolvi, utilizando as tecnologias que mais me atraem no desenvolvimento web.</p>
-
-        <section class="projeto">
-            <h2>Projeto 1: Nome do Projeto</h2>
-            <img src="./assets/projeto1.png" alt="Imagem do projeto 1">
-            <p>Descrição do projeto. Tecnologias utilizadas: React, CSS, HTML.</p>
-            <a href="https://github.com/GabrielBGB/projeto1">Ver no GitHub</a>
+    <main class="apresentacao projetos">
+        <section class="apresentacao__conteudo">
+          <h1 class="apresentacao__conteudo__titulo" style="text-align: center;">Meus Projetos</h1>
+          <div class="projetos__grid">
+      
+            <!-- Projeto 1 -->
+            <div class="projeto__card">
+              <img src="./assets/teste.gif" alt="Imagem do Projeto 1">
+              <h3>Nome do Projeto 1</h3>
+              <p>Descrição breve do que esse projeto faz ou seu propósito.</p>
+              <a href="https://linkdoproyecto.com" target="_blank">Ver Projeto</a>
+            </div>
+      
+            <!-- Projeto 2 -->
+            <div class="projeto__card">
+              <img src="./assets/projeto2.png" alt="Imagem do Projeto 2">
+              <h3>Nome do Projeto 2</h3>
+              <p>Outro projeto legal que você desenvolveu e quer mostrar!</p>
+              <a href="https://linkdoproyecto.com" target="_blank">Ver Projeto</a>
+            </div>
+      
+            <!-- Adicione mais projetos seguindo o padrão acima -->
+            
+          </div>
         </section>
-
-        <section class="projeto">
-            <h2>Projeto 2: Nome do Projeto</h2>
-            <img src="./assets/projeto2.png" alt="Imagem do projeto 2">
-            <p>Descrição do projeto. Tecnologias utilizadas: JavaScript, Node.js.</p>
-            <a href="https://github.com/GabrielBGB/projeto2">Ver no GitHub</a>
-        </section>
-
-        <!-- Adicione mais projetos aqui -->
-
-    </main>
+      </main>
+      
 
     <footer class="rodape">
         <p>Desenvolvido por Gabriel</p>
