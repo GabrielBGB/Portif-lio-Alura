@@ -152,4 +152,199 @@ body {
 
     }
 
+    /* SOBRE */
+.sobre {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 40px;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: var(--cor-secundaria);
+    background-color: #111111;
+    border-left: 4px solid var(--cor-terciaria);
+    border-radius: 8px;
+}
+
+/* PROJETOS */
+.projetos {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 40px 20px;
+    font-family: var(--fonte-principal);
+    text-align: center;
+}
+
+.projetos h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: var(--cor-terciaria);
+}
+
+.projetos__grid {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.projeto {
+    background-color: var(--cor-hover);
+    padding: 24px;
+    border-radius: 12px;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.projeto:hover {
+    transform: translateY(-5px);
+}
+
+.projeto h3 {
+    margin-bottom: 8px;
+    font-size: 1.4rem;
+    color: var(--cor-terciaria);
+}
+
+.projeto a {
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* CONTATO */
+.contato {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 40px;
+    font-family: var(--fonte-secundaria);
+}
+
+.contato h2 {
+    font-family: var(--fonte-principal);
+    color: var(--cor-terciaria);
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+}
+
+input, textarea {
+    padding: 14px;
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+    background-color: #1c1c1c;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+}
+
+input::placeholder, textarea::placeholder {
+    color: #aaa;
+}
+
+button {
+    padding: 14px;
+    font-size: 1.1rem;
+    border: none;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1bd1e5;
+}
+
+.contato p {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.contato a {
+    color: var(--cor-terciaria);
+    text-decoration: underline;
+}
+
+.sobre__foto {
+    width: 100%; /* Ajusta a largura para 100% do container */
+    max-width: 300px; /* Limita a largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Borda arredondada */
+    margin: 20px auto; /* Centraliza a imagem com margens automáticas */
+    display: block; /* Garante que a imagem se comporte como um bloco para o alinhamento */
+}
+
+.sobre h1 {
+    text-align: center; /* Centraliza o título */
+    font-family: var(--fonte-principal); /* Mantém a fonte principal */
+    font-size: 2.5rem; /* Ajusta o tamanho do título */
+    margin-bottom: 20px; /* Dá um espaçamento abaixo do título */
+}
+
+.sobre__apresentacao {
+    max-width: 900px; /* Limita a largura máxima do texto */
+    margin: 0 auto; /* Centraliza o conteúdo */
+    padding: 20px; /* Adiciona um padding interno */
+    line-height: 1.8; /* Aumenta o espaçamento entre as linhas para uma leitura melhor */
+}
+
+.sobre__apresentacao p {
+    font-size: 1.25rem; /* Ajusta o tamanho da fonte para o texto */
+    font-family: var(--fonte-secundaria); /* Fonte secundária para o texto */
+    margin-bottom: 20px; /* Adiciona um espaçamento entre os parágrafos */
+}
+
+.sobre__apresentacao strong {
+    font-weight: 700; /* Deixa o texto em negrito mais forte */
+}
+
+
+.formulario-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-family: var(--fonte-secundaria);
+    font-size: 1rem;
+    background-color: #1c1c1c;
+    color: var(--cor-secundaria);
+}
+
+.formulario-contato input::placeholder,
+.formulario-contato textarea::placeholder {
+    color: #999;
+}
+
+.formulario-contato button {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    font-weight: bold;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.formulario-contato button:hover {
+    background-color: #1dd0f0;
+}
+
 
