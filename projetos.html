@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR" data-tema="escuro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,36 +14,105 @@
             <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
             <a class="cabecalho__menu__link" href="projetos.html">Projetos</a>
             <a class="cabecalho__menu__link" href="contato.html">Contato</a>
+            
         </nav>
     </header>
 
-    <main class="apresentacao projetos">
-        <section class="apresentacao__conteudo">
-          <h1 class="apresentacao__conteudo__titulo" style="text-align: center;">Meus Projetos</h1>
-          <div class="projetos__grid">
-      
-            <!-- Projeto 1 -->
-            <div class="projeto__card">
-              <img src="./assets/teste.gif" alt="Imagem do Projeto 1">
-              <h3>Nome do Projeto 1</h3>
-              <p>Descrição breve do que esse projeto faz ou seu propósito.</p>
-              <a href="https://linkdoproyecto.com" target="_blank">Ver Projeto</a>
-            </div>
-      
-            <!-- Projeto 2 -->
-            <div class="projeto__card">
-              <img src="./assets/projeto2.png" alt="Imagem do Projeto 2">
-              <h3>Nome do Projeto 2</h3>
-              <p>Outro projeto legal que você desenvolveu e quer mostrar!</p>
-              <a href="https://linkdoproyecto.com" target="_blank">Ver Projeto</a>
-            </div>
-      
-            <!-- Adicione mais projetos seguindo o padrão acima -->
+    <main class="apresentacao">
+        <section class="projetos">
+            <h1 class="apresentacao__conteudo__titulo" style="text-align: center;">Meus Projetos</h1>
+<p class="projetos__descricao" style="text-align: center;">
+    Aqui estão alguns dos projetos que desenvolvi ao longo da minha carreira, cada um focado em resolver desafios específicos e utilizando as melhores tecnologias.
+</p>
+            <div class="projetos__grid">
+
+                <!-- Projeto 1 -->
+                <div class="projeto__card">
+                    <img src="./assets/calculadora.gif" alt="Demonstração do Projeto 1 - Interface de usuário com funcionalidades dinâmicas">
+                    <div class="projeto__conteudo">
+                        <h3>Calculadora </h3>
+                        <p class="projeto__descricao">Uma calculadora de console simples que permite realizar as quatro operações, além de visualizar a tabuada e o histórico de operações.</p>
+                        <div class="projeto__tags">
+                            <span class="tag">C#</span>
+                            
+                        </div>
+                        <a class="projeto__botao" href="https://github.com/GabrielBGB/calculadora-2025" target="_blank">Ver Projeto</a>
+                    </div>
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="projeto__card">
+                    <img src="./assets/jogodaforca.gif" alt="O Jogo da Forca é um jogo de palavras clássico">
+                    <div class="projeto__conteudo">
+                        <h3>Jogo da Forca</h3>
+                        <p class="projeto__descricao">O Jogo da Forca é um jogo de palavras clássico, no qual os jogadores devem adivinhar uma palavra oculta, antes de cometerem um determinado número de erros.</p>
+                        <div class="projeto__tags">
+                            <span class="tag">C#</span>
+                            
+                        </div>
+                        <a class="projeto__botao" href="https://github.com/GabrielBGB/Jogo-da-forca-2025" target="_blank">Ver Projeto</a>
+                    </div>
+                </div>
+
+                <!-- Projeto 3 -->
+<div class="projeto__card">
+    <img src="./assets/gabrielplus.gif" alt="Demonstração do Projeto 3 - Site de streaming de filmes e séries">
+    <div class="projeto__conteudo">
+        <h3>Gabriel Plus Streaming</h3>
+        <p class="projeto__descricao">Uma simulação de site de streaming de séries e filmes.</p>
+        <div class="projeto__tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+        </div>
+        <a class="projeto__botao" href="https://github.com/GabrielBGB/GabrielPlus" target="_blank">Ver Projeto</a>
+    </div>
+</div>
+
+<!-- Projeto 4 -->
+<div class="projeto__card">
+    <img src="./assets/diamantecomx.gif" alt="Gerador de Diamante com 'X">
+    <div class="projeto__conteudo">
+        <h3>Gerador de Diamante com 'X'</h3>
+        <p class="projeto__descricao">Este é um programa em C# que solicita ao usuário um número ímpar e gera um diamante simétrico utilizando o caractere 'X'.</p>
+        <div class="projeto__tags">
+            <span class="tag">C#</span>
+        </div>
+        <a class="projeto__botao" href="https://github.com/GabrielBGB/DiamanteX.ConsoleApp1" target="_blank">Ver Projeto</a>
+    </div>
+</div>
+
+<!-- Projeto 5 -->
+<div class="projeto__card">
+    <img src="./assets/jogoadvinhacao.gif" alt="Jogo De Adivinhação">
+    <div class="projeto__conteudo">
+        <h3>Jogo De Adivinhação</h3>
+        <p class="projeto__descricao">O jogo da adivinhação de números é um desafio no qual um jogador tenta adivinhar um número secreto dentro de um determinado intervalo. Ele pode ser jogado sozinho (contra um sistema) ou em grupo, onde uma pessoa escolhe o número e os outros tentam descobrir.</p>
+        <div class="projeto__tags">
+            <span class="tag">C#</span>
             
-          </div>
+        </div>
+        <a class="projeto__botao" href="https://github.com/GabrielBGB/Jogo-de-Advinhacao-2025/tree/master" target="_blank">Ver Projeto</a>
+    </div>
+</div>
+
+<!-- Projeto 6 -->
+<!--div class="projeto__card">
+    <img src="./assets/api-filmes.png" alt="Consumo de API de filmes">
+    <div class="projeto__conteudo">
+        <h3>API de Filmes</h3>
+        <p class="projeto__descricao">Projeto que consome uma API pública para listar filmes e detalhes com JavaScript assíncrono.</p>
+        <div class="projeto__tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+        </div>
+        <a class="projeto__botao" href="https://github.com/seuprojeto6" target="_blank">Ver Projeto</a>
+
+            </div>
+            </!-->
         </section>
-      </main>
-      
+        
+    </main>
 
     <footer class="rodape">
         <p>Desenvolvido por Gabriel</p>
